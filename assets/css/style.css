@@ -39,7 +39,7 @@ h1{
     background-color: #4aaaa5;
     color: #ffffff;
     font-family:'Georgia', Times, Times New Roman, serif;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 160px;
     border-bottom: #cccccc solid 2px;
@@ -63,20 +63,24 @@ a {
     float: left;
 }
 
+.topnav a:hover {
+    color: #4aaaa5;
+}
+
 #about {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 885px;
 }
 
 #portfolio {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 950px;
 }
 
 #contact {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 1030px;
 }
@@ -109,8 +113,8 @@ article {
 }
 
 #selfie {
-    height: 300px;
-    width: 300px;
+    height: 290px;
+    width: 290px;
     padding: 10px;
     float: left;
 }
@@ -120,6 +124,11 @@ p {
     color: #777777;
     padding: 10px;
     float: left;
+
+}
+
+.right {
+   width: 600px;
 }
 
 form {
@@ -188,6 +197,11 @@ input[type=submit]:hover {
     position: relative;
     left: 0;
     bottom: 30px;
+}
+
+.text-block:hover {
+    background-color: yellow;
+    color: #4aaaa5;
 }
 
 footer {

@@ -195,6 +195,23 @@ input[type=submit]:hover {
     color: #4aaaa5;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    margin-left: 100px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
 .imagelink {
     display: inline-block;
     overflow: auto;
@@ -203,6 +220,11 @@ input[type=submit]:hover {
 .image {
     width: 150px;
     height: 150px;
+    padding: 20px;
+}
+
+.image:hover {
+    opacity: 0.3;
 }
 
 .text-block {

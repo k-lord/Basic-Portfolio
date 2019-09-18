@@ -31,7 +31,7 @@ ul {
 }
 
 h1{
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family:'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
 }
 
@@ -50,10 +50,13 @@ h1{
     float: left;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topnav a {
     font-size: 16px;
     color: #777777;
-    text-decoration: none;
     margin-top: 0;
     padding: 20px;
     line-height: 40px;
@@ -105,8 +108,7 @@ article {
     border-top: #dddddd solid 2px;
 }
 
-img {
-    background-color: #ffffff;
+#selfie {
     height: 300px;
     width: 300px;
     padding: 10px;
@@ -124,7 +126,6 @@ form {
     color: #777777;
     margin: 8px 0;
     font-size: 22px;
-    autocomplete: off;
 }
 
 input[type=text] {
@@ -165,6 +166,28 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: yellow;
     color: #4aaaa5;
+}
+
+.imagelink {
+    display: inline-block;
+    overflow: auto;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.text-block {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 150px;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 30px;
 }
 
 footer {
